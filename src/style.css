@@ -1,0 +1,221 @@
+.koji-embed-button {
+  background: #111;
+  border: 0px;
+  border-radius: 5px;
+  color: #fff;
+  font-family: sans-serif;
+
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  grid-area: pay;
+  line-height: 16px;
+  letter-spacing: -0.14px;
+  justify-content: center;
+  outline: none;
+  padding: 20px 35px;
+  position: relative;
+  user-select: none;
+  text-align: center;
+  transition: 0.2s ease transform, 0.2s ease background;
+  -webkit-tap-highlight-color: transparent;
+
+  width: fit-content;
+}
+
+.koji-embed-button:active {
+  transform: scale(0.95, 0.95);
+}
+
+.koji-embed-button:disabled {
+  cursor: not-allowed;
+  opacity: 30%;
+}
+
+.koji-embed-button-none,
+.koji-embed-button-left {
+  margin-left: 0;
+}
+
+.koji-embed-button-center {
+  margin: 0 auto;
+}
+
+.koji-embed-button-right {
+  margin-left: auto;
+}
+
+.koji-embed-button-full {
+  width: 100%;
+}
+
+/* Editor Color Palette CSS Fix */
+
+.koji-embed-button-color-palette .components-circular-option-picker {
+  margin-top: unset !important;
+}
+
+/* Editor */
+
+.koji-editor__container {
+  padding: 10px 16px 18px;
+  border: 1px solid black;
+  border-radius: 2px;
+  background: white !important;
+}
+
+.koji-editor__header {
+  display: flex;
+  align-items: center;
+}
+
+.koji-editor__header > svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+
+.koji-editor__horizontal-line {
+  width: 100%;
+  height: 15px;
+  border-bottom: 1px solid #bebebe;
+  text-align: center;
+}
+
+.koji-editor__horizontal-line-label {
+  background-color: white;
+  padding: 0 10px;
+}
+
+/* Typography */
+
+.koji-typography__header4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.35px;
+  color: #111;
+}
+
+.koji-typography__body2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: -0.32px;
+  color: #111;
+}
+
+.koji-typography__header6 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.2px;
+  color: #111;
+}
+
+/* Typography */
+
+.koji-button {
+  align-items: center;
+  background: #007aff !important;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff !important;
+  cursor: pointer;
+  display: flex;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  grid-area: pay;
+  line-height: 16px;
+  letter-spacing: -0.14px;
+  justify-content: center;
+  outline: none;
+  padding: 20px 0;
+  position: relative;
+  user-select: none;
+  text-align: center;
+  transition: 0.2s ease transform, 0.2s ease background;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.koji-button:active {
+  transform: scale(0.95, 0.95);
+}
+
+.koji-button:disabled {
+  cursor: not-allowed;
+  opacity: 30%;
+}
+
+.koji-black-button {
+  color: white !important;
+  background: #111111 !important;
+}
+
+/* Koji Input */
+
+.koji-input__container {
+  position: relative;
+  width: 100%;
+}
+
+.koji-input__container-applyMarginBottom {
+  margin-bottom: 35px;
+}
+
+.koji-input__input {
+  position: relative;
+  outline: none;
+  width: 100%;
+  resize: none;
+  border: 1px solid #999999;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px !important;
+  letter-spacing: -0.41px;
+  color: #000000;
+  padding: 12px !important;
+  padding-top: 26px !important;
+  padding-bottom: 8px !important;
+  background: transparent;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+  margin: 0;
+
+  padding-top: 17px !important;
+  padding-bottom: 17px !important;
+}
+
+.koji-input__input::placeholder {
+  color: #999999;
+}
+
+.koji-input__input::-webkit-autofill,
+.koji-input__input::-webkit-autofill:hover,
+.koji-input__input::-webkit-autofill:focus,
+.koji-input__input::-webkit-autofill:active {
+  box-shadow: 0 0 0 30px white inset !important;
+}
+
+.koji-input__error {
+  position: absolute;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #f44336;
+  margin: 5px 7px 0px 13px;
+  top: calc(100%);
+}
